@@ -9,7 +9,7 @@ let package = Package(
         .library(
             name: "FFmpeg-iOS",
             targets: [
-                "avcodec", "avutil", "avformat", "avfilter", "swscale", "swresample", "Depend"]),
+                "avcodec", "avutil", "avformat", "avfilter", "avdevice", "swscale", "swresample", "Depend"]),
         .executable(name: "ffmpeg-ios", targets: ["Tool"]),
     ],
     dependencies: [
